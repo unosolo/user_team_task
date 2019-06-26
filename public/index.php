@@ -1,3 +1,2 @@
 <?php
-echo "Hello";
-phpinfo();
+include('../src/controller/home.php');
