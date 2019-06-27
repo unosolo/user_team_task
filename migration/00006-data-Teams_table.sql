@@ -1,4 +1,5 @@
 INSERT INTO `teams` (`id`, `name`, `created_at`) VALUES 
-  (NULL, 'Team A', ''), 
-  (NULL, 'Team B', ''), 
-  (NULL, 'Team C', '');
+  (NULL, 'Team A', current_timestamp()), 
+  (NULL, 'Team B', current_timestamp()), 
+  (NULL, 'Team C', current_timestamp())
+  
