@@ -13,7 +13,7 @@
               <th>Teams</th>
             </thead>
             <tbody>
-              <?php foreach (array_expression as $value) { ?>
+              <?php foreach ($users as $user) { ?>
                 <tr>
                   <th><?= $user['id'] ?></th>
                   <th><?= $user['first_name'] . ' ' . $user['last_name'] ?></th>
