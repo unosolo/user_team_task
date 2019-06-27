@@ -30,7 +30,7 @@ if (mysqli_num_rows($users_result) > 0) {
     $users[] = $user;
   }
 
-  mysqli_stmt_close($stmt);
+  mysqli_stmt_close($query_team_stmt);
 }
 
 return $users;
