@@ -3,8 +3,27 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
   <body>
-    <h1>List of Users</h1>
-
+    <div class="container">
+      <h1>List of Users</h1>
+      <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Teams</th>
+            </thead>
+            <tbody>
+              <?php foreach (array_expression as $value) { ?>
+                <tr>
+                  <th><?= $user['id'] ?></th>
+                  <th><?= $user['first_name'] . ' ' . $user['last_name'] ?></th>
+                  <th><?= $user['teams'] ?></th>
+                </tr>
+              <?php } ?>
+            </tbody>
+          </table>
+      </div>
+    </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
