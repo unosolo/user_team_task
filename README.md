@@ -18,6 +18,9 @@ It folows a basic mvc folder organization
 
 # Installation
   
-  I used npm for installing javascript libraries, then go to the public directory an run the following command after the repository is cloned.
+I used npm for installing javascript libraries, then go to the **public** directory an run the following command after the repository is cloned.
     
     npm install
+    
+    
+**public/index.php** is the only entrypoint for the web app.
